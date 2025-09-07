@@ -27,13 +27,12 @@ struct ContentView: View {
                 Button("Great!") {
                     message = "Great!"
                 }
-
-            }                 .buttonStyle(.borderedProminent)
-                .font(.title2)
-                .tint(.orange)
+            }
+            .buttonStyle(.borderedProminent)
+            .font(.title2)
+            .tint(.orange)
         }
         .padding()
-        
     }
 }
 
